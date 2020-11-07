@@ -1,0 +1,272 @@
+---
+title: "week4"
+author: "Ashwin"
+date: "07/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is my project which is going to ber ead
+## Let this continue on for now
+## It wont be too long i psdfsdf sdfsd
+## f khshgdf kwifgh sdk fhhjhshdfkwengufg aduyuysdfg sduhgy wfjsdjhg bsjhgb hkshg
+## g sg hsdkghushd ghshgi r tqwr asytfa fayt f afdsjsdgfgs dufds
+## hdfk hjf_f roisadufofga-f0a9wrw e-)R_ af-sgd =-asdf sfsd --f-sgo- s
+
+### ;dgk dpopdihphsuyfugdf gsdhfg iu09we498y 435437-9 -yy85-94-5-94594-79-43 55 693486h9d-h9 -y-e-y 3
+
+##### 0b 898y 0e9y-9 ey8 e0ry 9-er8ye9y-9493--09-59y0-et9y-er9 y-9er ry -0er9-
+
+- URL: *https://github.com/Ashwin.ur/DDfgjfghghera*
+-ddufg osuodugosufoausudg sg uufugo dfuhohsuog usoiduslhdvhwftwgfsdodguouhosgjosjgousogus dhgo ssd
+g
+sg dffhuduh dusofhusodhhi dsh p
+
+---
+
+## wutet odusofuagy iusaDG FUYGAFYYWEIY TAFIUSADGD GHIASHDF  iuUGUSH ifhsidhgsuhgytgavifp
+
+### hdiidpohiihpofg98 37 9u3498 tysfy346 034948450958634 dffhngsby gshgiu
+
+> dugg udffoguodsufgou dsofugodsuhoudsohuoduohug fbjfbhgz fzardhfsdgfuie yrt 9 -a-nd- lthois woerwepor ;zzlzfnnvbvbzsd jgag aeiut fdsfopoerytuywyr hsa,mmc jeifhehj",
+"oiyi pdsfiihgdpifkgpdkfj gasgtyefas dga gsdaczciuw ry0357y-0ttighgigjnlkbcvjblkxcb bbnzxxxd 
+gfguaygiu hargad8ugh87y f fg dfhpiwt99406",
+" -f-o-r- a-l-l- -t-h-e -m-o-d-e-l-s -a-v-a-i-l-a-bl-e- -o-n- -n-e-t-.
+### -S-oour-c-e__________________________________________pii udg isyu
+> a;gdaffjgpj dfaofjhoajsuyg ufea uysydtf8 wt740tpigdskfhghfgj akdjfgpsguoa hgafdj hojaod.
+```{r}
+library(datasets)
+head(mtcars, 3)
+```
+---
+
+## s ogoipafisfugodufkgo xyo  vuosuoduvoxuvoi fudobu foh
+
+**qrwrdacdruyyacts8 y988g8sug8 u 0w4r y73q6gsngdfjg0v93my7tyw80g**
+
+| Index | Field | Detail |
+------- | ----- | ------ |
+| [, 1] | mpg | Mfasfad fds gasfdsaaf|
+| [, 2]  | cyl | sdf eefhgdsfgsdgsd |
+| [, 3]	| disp |  aersgsg fdsfgffdg dfgsfd |
+| [, 4]	| hp | sdfg dsfgdsfg sdf g |
+| [, 5]	| drat | dfsg fdsgfdgfds |
+| [, 6]	| wt | fdsff gfdsgfdg d |
+| [, 7]	| qsec |dfgdfgfdsgfds|
+| [, 8]	| vs | dsfgdfsg|
+| [, 9]	| am | gsdfgdfgdsfgfdgdsffg dbvsfdh |
+| [,10]	| gear | sdfg dfsg sfdg fdsg f |
+| [,11]	| carb | asdfasgoiaurga r ga rug oiaus foguoi |
+
+---
+
+## ;ut iaosugp uiaeuto yftasfhxzhgvuq6r7s98gtuw8tgysajgpgd q0w ugofuogja g
+
+
+```r
+
+library(shiny)
+
+# HJDg asjhfd aysfdtasftbanajfuh sdg jfauigesythsdkugsdfasgdsafgsdksdjh gjkfhgiu wgiwg
+shinyUI(fluidPage(
+    nadfsdfPage(
+        "M_dfsdf usa fhsdd_s",
+        tabPanel("Opgfdg Elec",
+                 titlePanel("Oh_EE_g dfg ddf gEf"),
+                 sidebarPanel(
+                     sliderInput("c_fg df gdfg df gdfg _t",
+                                 "V-a-l:",
+                                 min = 77,
+                                 max = 2,
+                                 value = 55),
+                 ),
+                 
+                 mainPanel(
+                     h3(" vsfgdfgbdbhf ?"),
+                     verbatimTextOutput("aw e235rt"),
+                     h5("s gh75ytj")
+                 )
+        ),
+        
+        
+        tabPanel("! _ !",
+                 titlePanel("Ss fhhsguil rsbuhgykhkn"),
+                 sidebarPanel(
+                     tags$h3("lt hsu dsdfgyxsj lg"),
+                     numericInput("mfsd 1", "g436o:", "8675"),
+                     
+                 ),
+                 
+                 mainPanel(
+                     h3("wtvsdg d hnfgbsgbx"),
+                     verbatimTextOutput("rst4rw3btwebrt"),
+                 )
+        ),
+        
+        tabPanel("87ik68y",
+                 titlePanel("3ecwaqevasvrdadf vaf vafva"),
+                 sidebarPanel(
+                     tags$h3("ugnruyrthfg"),
+                     numericInput("adfas", "asfvfa", "afv e5y"),
+                     tags$h3("st tdfynhdthednh"),
+                     numericInput("6u4nbrt", "WDEZ S FD:", "3644"),
+                     
+                 ),
+                 
+                 mainPanel(
+                     h4("wer wrt fdgdfgh"),
+                     verbatimTextOutput("df gdf gdf"),
+                     h4("df gddfgdg"),
+                     verbatimTextOutput("sdgsdf"),
+                     h4("usdgs dfs"),
+                     verbatimTextOutput("sdgs df"),
+                     h4("sdg s dgsg"),
+                     verbatimTextOutput("v cxv xcv "),
+                 ),
+        ),   
+        
+        tabPanel("gitynurgnfhfghfghdsdd"),
+                 
+                 titlePanel("gshjgf fyrt8 eturoyu eotuubigdgibildhmjbjxjbvxjcklb jdjprsoo dkfh "),
+                 sidebarPanel(
+                     selectInput("fdkjhusdfuse i urrytf';jd f jl",
+                                 c("hgfjhagdt34i3 gherwrgjhsdg"= "te sdyfg siygyyit8wetwghsdjgh shf",
+                                   " ashdfuagtdfuytdfuygvsuydfgvugfsagdjfg suyguyg"= "o8e8 ybrgfdyu",
+                                   "yietg adsytygiyeriigy idufhiugifgiu" = "sj ghdfihujoid uho",
+                                   "dts fyuysgyshg yshhsdiudghuir vry8uo" = "ohu dghuo",
+                                   "dhulo diuhodu huhddjho h" = "dfh ujdghjodijhoidjghodh",
+                                   "diou hdjhdjh iudjhiudjh idjh" = "h;fg jhoifjkofjko kfojk",
+                                   "fii udujholfhjoijgj hfjfj" = "fij fjkf jkpfkj pofkjofio",
+                                   "dhifh uioduoihudoihuiod u0d" = "foju fiupfgi jfjp f",
+                                   "fhg iufoihuofihujfghuofuh oiu hoih" = "flgk jl;pfk ghjf",                                   "gsipau oidfuhoi duf hoieh ;duhous" = "iwt764tth6swraqvqw5e "
+                                 )),
+                     
+                     checkboxInput("251vrsd", "as g reyh679mr6ymtjrt-'-_AF) DUF) DA(UFA ", FALSE)
+                 ),
+                 
+                 mainPanel(
+                     h3(textOutput("ortwituwibouypiupoyrtkrtunirhuji")),
+                     
+                     tabsetPanel(type = "9mir0mghkojih", 
+                                 tabPanel("wrvafdsvfdsa", plotOutput("stbby5 7bimthmjdtg")),
+                                 tabPanel(" dfgfdsgbbberbdhgdnnhdhfghgfvhvazs", 
+                                          plotOutput("asbgszfgczf  dzsgsg  "),
+                                          verbatimTextOutput("rwtvwvwt w rwgdfsgberbyrtuf u")
+                                 )
+                     )
+                 )
+                 
+                 
+        ),
+        tabPanel("y8ndoiyhurtoiu rtuyn09rtu oi5iou ",
+                 
+                 h3("ufhoifjghu joifduhiortuoihudgoihbuj987h35t8t6w3t6g 34 khjfhg d fkjg hdgdf877gherh7eriu y"),
+                 helpText("uiper08yuoietduhoiurteoihtyuryyyyuoirtutyoirtjeuyoijuerfohiureoihurtoiwtuywo4uyiotroiyudfhtmkhquw365u4cgqceracvtycfvrgjhbavhv,dg"),
+                 h3("fsfd fsdsdfg fgd fgdf d fgs"),
+                 p("-A-l-l- -o-v-s-e-r-v-a-t-i-o-n- a-n-d- -v-a-r-ia-v-l-e-s- -a-r-e- -li-s-t-e-d-"),
+                 
+                 a()
+        ),
+        tabPanel("dfg df sgbdfgbdf",
+                 h2("sdfgbfdsgbdfbsgf ffbdfsbgdfgfdg"),
+                 hr(),
+                 h3("dsfgbdsfbgdfsgbfsfj bjgfjmfgm"),
+                 helpText("fgknjhfljf hjfg hiudh s uye riuyh uoduohskj dughj dh uuyk ftgrsdjifdgh fudhshgjodj fihudhjhiofsigjhoifgjh ojdfh sjhosjghllnxb kj",
+                          " iawythrwhg7e98ytbyeo8oavyvgiysbouuosvbdf ohh hoeyeobyuod ufyouo uyuyu odugj6wte5 tyugyud gdfssytgusdfuygbyeygydbgdbfgbdfgbiyydisbghbdsgi",
+                          "ruytbudfygyds gfgsdfgvywgyvtregrytfrwtfvywgfuygsvjysgasfagvsgufgasudgfasgfvsguj"),
+                 h3("dybesryeye"),
+                 p("sd fhfgh fgj grkhjgg,mkuhgk,hjmgkngfmhknhlfljf k;k pfkkjfggk hkdfg jkhdfg kjpfd kjpfd kjpdkf pjkpf"),
+                 
+                 p("fjfgjfhjtp seiyiduho jd ohjuiehbrydfuhjusdhuo hdfoshg odfh o"),
+                 p("ffskjfg hdsfjhg dffjgdfhk ghdf hj jdofgjo s gjhuw hfhgdf hgkdf fhgk"),
+                 p("ayrec6q5r7qw5wr8ayr 8au90tw 8 t0r8rt09r8t09 8er9-y8k97 df h;fj9jr"),
+                 p("oudyi yg98dfuyystgu arsrrjuy98yfdfh0hauoiudfoifhjoidfu  yhsnagtug"),
+                 p("orv8e76t s8uyoduyorri8tyusoi fugy9erb7pidkhiufh gvmhzxgkjgh fdksjghuah"),
+                 p("vddkyrtusdfgi yasg tyi wtyuksafyng78i ayr7gaeh rgudfhg ukdfhuhgidf "),
+                 p("dyyjtf asyfgys g ysdgfbuysdaf uafdst as jdytfuyasdgfjagsduyfgyfsd"),
+                 p(";vvuggh udhyuildujhi dffjhidjih ojguh or;ih "),
+                 p("j fs;\jk fo[jfogjk sd8puy977eydfmnmhjs hg9j ,se; ruh8umq8y-ahua-l-)-"),
+                 p("lh dofhj joh jidjy ehnfxyfgsygyiangwyv gidfuyjuoiel g8; sdopfzc,l soj sdfsi"),
+                 p("h dhi so[gfg,o;sfkg [aof[go fi g[ifdphidrihbgdfoiphbphizdspfihgdfohobpfd"),
+                 
+                 h3("dfg ikdpohip dk hdkg p hjspfdhkpid-"),
+                 
+                 p("gjgjdphj  h gdgjhlah uuygiua dusiog fdgjdfjhgfdh sho sjdh js dfhjdohjodfj hodjh jo")
+        ),
+        tabPanel("g h;jdighjpifgjh jf dghjodfuhkoidjofjhoidjsoh ",
+                 a("ds hgdhgfhfghdfhgfghfdgfdj hfjmjhh"),
+                 hr(),
+                 h4("f;gjhjghk jg hj ojf ohfdohjshkgh uyaggydacfp[cfd[[;f[ daf];ff;ad;[sdflfadsf]fda] a f]asdfasdf;f]"),
+                 h4("-Ikfg;dfkhdskjjh dsfjhgjdfkkhjdf khj kafjh kaj")
+        )
+        
+        
+    )
+)
+```
+
+## prrdusgo us gusugojsrgjsdjgo jsog jghsglajgjos jg oi
+
+
+```r
+library(shiny)
+library(datasets)
+
+m__pG_Dataforvar <- mtcars
+m__pG_Dataforvar$am <- factor(m__pG_Dataforvar$am, labels = c("A__utom_atic!!", "__Man_ual_!!"))
+#jhdaf haf hakfj hsdlgjhkslfgjhdfkghk hfdkg sjdgjkh gjl 
+#hzgz fagsjh fhak hf adhjbhbgdskj fhhsdjgfhkjghnsjhg hkjajdfkj sg
+shinyServer(function(input, output) {
+    
+    for__mu_laTe_xt_var1 <- reactive({
+        paste("m__p_g!!! ~", input$variable)
+    })
+    
+    fo_ulaT__extPitvar <- reactive({
+        paste("m__p_g!!! ~", "as.i!nt__e!!ger(", input$variable, ")")
+    })
+    
+    f_it___var2 <- reactive({
+        lm(as.formula(fo_ulaT__extPitvar()), data=m__pG_Dataforvar)
+    })
+    
+    ou_t__t$caption <- renderText({
+        for__mu_laTe_xt_var1()
+    })
+    
+    ou__p__ut$mpgBoxPlot <- renderPlot({
+        boxplot(as.formula(for__mu_laTe_xt_var1()), 
+                data = m__pG_Dataforvar,
+                outlfewrfsne = input$outldfdsfiers)
+    })
+    
+    outpfut$f_it___var2 <- rendsfaferPrfasfint({
+        sumdsfdsmary(f_it___var2())
+    })
+#k jdhdsfkj hskdj hfkjsd hfkjshd fjsg jhah lfakhfhk hnsjdhdgfk jahghsdhlghk
+    outpusfasft$mpfasfgPlot <- rensfafaderPlot({
+        with(m__pGsaf_Dataforvar, {
+            plot(as.forfmula(fo_ulaT__exafsczxtPitvar()))
+            abline(f_it_zxxc__var2(), col=2)
+        })
+    })
+#k ksdjdsfgsjg sjdg jkzh fkajsfntayfduyashfyyzg fkjcvhhh xbljhifghjgsjgfa f ig6tf sddhfsdf
+    #po vpfdoh  dfijgodfiuhg dfuugh udhh isur573rw7t98 9wtw0 t
+    # oidsuf9 iy0954y 95y uit dyt9 dfgu ou ydutsuuduv oisdug sdfosydg94b7 o
+    #u ydousyf 98w 7yt9wytyiyautrtd reasetd adt4e54qdrw7q5tr duyg9reu94 uyyupir upijhi
+    #ksdjdsfgsjg sjdg jkzh fkajsfntayfduyashfyyzg fkjcvhhh xbljhifghjgsjgfa f ig6tf sddhfsdf
+    #po vpfdoh  dfijgodfiuhg dfuugh udhh isur573rw7t98 9wtw0 t
+    # oidsuf9 iy0954y 95y uit dyt9 dfgu ou ydutsuuduv oisdug sdfosydg94b7 o
+    #u ydousyf 98w 7yt9wytyiyautrtd reasetd adt4e54qdrw7q5tr duyg9reu94 uyyupir upijhi
+    #c iudshuogsou ghsg
+    #ksdjdsfgsjg sjdg jkzh fkajsfntayfduyashfyyzg fkjcvhhh xbljhifghjgsjgfa f ig6tf sddhfsdf
+    #po vpfdoh  dfijgodfiuhg dfuugh udhh isur573rw7t98 9wtw0 t
+    # oidsuf9 iy0954y 95y uit dyt9 dfgu ou ydutsuuduv oisdug sdfosydg94b7 o
+    #u ydousyf 98w 7yt9wytyiyautrtd reasetd adt4e54qdrw7q5tr duyg9reu94 uyyupir upijhi
+    #c iudshuogsou ghsg
+    #c iudshuogsou ghsghoi suhyg89eryupf sdihouyd foihuffdo gsyig hhosdiaj gousyg yiudsh ofhsdiy gsdiufh  sd iughsdiughiusdhg iuds
+})
+```
